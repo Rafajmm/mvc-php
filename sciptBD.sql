@@ -1,0 +1,10 @@
+CREATE DATABASE IF NOT EXISTS miBiblioteca;
+
+USE miBiblioteca;
+
+CREATE TABLE libros (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    titulo VARCHAR(150) NOT NULL,
+    autor VARCHAR(100) NOT NULL,
+    leido TINYINT(1) DEFAULT 0
+);
