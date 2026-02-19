@@ -1,5 +1,5 @@
 <?php
-require_once 'models/Libro.php';
+require_once 'src/models/Libro.php';
 
 class LibroController {
     private $modelo;
@@ -10,7 +10,7 @@ class LibroController {
 
     public function index() {
         $libros = $this->modelo->listar();
-        require_once 'views/biblioteca.php';
+        require_once 'src/views/biblioteca.php';
     }
 
     public function nuevo() {
