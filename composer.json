@@ -12,6 +12,7 @@
         }
     ],
     "require": {
-        "phroute/phroute": "^2.2"
+        "phroute/phroute": "^2.2",
+        "firebase/php-jwt": "^7.0"
     }
 }
