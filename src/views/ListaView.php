@@ -14,8 +14,13 @@
         <div class="col-md-12">
             <div class="card shadow">
                 <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
-                    <h2 class="mb-0">Mi Biblioteca</h2>
-                    <span class="badge bg-light text-primary"><?php echo count($libros); ?> Libros</span>
+                    <div>
+                        <h2 class="mb-0">Mi Biblioteca</h2>
+                        <span class="badge bg-light text-primary"><?php echo count($libros); ?> Libros</span>
+                    </div>
+                    <a href="index.php?action=logout" class="btn btn-danger btn-sm">
+                        <i class="bi bi-box-arrow-right"></i> Salir
+                    </a>
                 </div>
                 <div class="card-body">
                     

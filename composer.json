@@ -1,18 +1,5 @@
 {
-    "name": "usuario/mvc",
-    "autoload": {
-        "psr-4": {
-            "Src\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "rafa",
-            "email": "you@example.com"
-        }
-    ],
     "require": {
-        "phroute/phroute": "^2.2",
         "firebase/php-jwt": "^7.0"
     }
 }

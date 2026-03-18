@@ -2,7 +2,7 @@
 
 require_once 'src/config/conexionBD.php';
 
-class Libro{
+class Lista{
     private $bd;
 
     public function __construct(){

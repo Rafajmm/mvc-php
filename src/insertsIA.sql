@@ -51,3 +51,6 @@ INSERT INTO libros (titulo, autor) VALUES
 ('El amor es un perro del infierno', 'Charles Bukowski'),
 ('La metamorfosis', 'Franz Kafka'),
 ('La condena', 'Franz Kafka');
+
+-- La contraseña es '123456' encriptada
+INSERT INTO usuarios (nombre_usuario, pass) VALUES ('admin@correo.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi');

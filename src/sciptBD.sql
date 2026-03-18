@@ -8,3 +8,9 @@ CREATE TABLE libros (
     autor VARCHAR(100) NOT NULL,
     leido TINYINT(1) DEFAULT 0
 );
+
+CREATE TABLE usuarios (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre_usuario VARCHAR(50) NOT NULL,
+    pass VARCHAR(250)
+);
